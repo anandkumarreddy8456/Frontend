@@ -1,0 +1,24 @@
+/*p{
+	color: greenyellow;
+}   this is External CSS and it is Element way*/
+/*#uni{
+	color: Red;
+} this is By ID way */
+/*
+*
+{
+	color: black;
+}                Select All with equal things*/
+h2{
+	color: gray;
+}
+.s10{
+	color: orange;
+}
+.i12{
+	color: skyblue;
+}
+.Ug{
+	color: Green;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Submit</title>
+</head>
+<body>
+	<form >
+		<DIV ALIGN="center"><h1>Enter Your Details</h1></DIV>
+		<hr>
+		<label for="fname" >First Name:</label>
+		<input type="text" id="fname" name="fname" placeholder="Fname" required><br><br>
+		<label for="lname">Last Name :</label>
+		<input type="text" id="lname" name="lname" placeholder="Lname" required>
+		<br><br>
+		<label>Department</label>
+		<!--<input list="dept">-->
+		<SELECT id="dept">
+			<option value="cse">CSE</option>
+			<option value="ece">ECE</option>
+			<option value="eee">EEE</option>
+			<option value="mech">MECH</option>
+			<option value="civil">CIVIL</option>
+		</select><BR><BR>
+		Selcet Your Gender : <br>
+		<input type="Radio" name="gender" value="male"required ><label for="gender">Male</label><br>
+		<input type="Radio" name="gender" value="female"required><label for="gender">Female</label><br>
+		<input type="radio" name="gender" value="others"required ><lable for="gender">Others</lable><br><BR>
+		<label>Phone Number :</label>
+		<input type="text" name="country code" size="2" placeholder="+91" value="country"required>
+		<input type="Number" name="phone number" size="10" pattern="{0-9}[10]" placeholder="9382972992" value="Phone"required><br>
+		<br>
+		Address:
+		<textarea rows="5" cols="20"></textarea><br><br>
+		Selcet Your Skills :<br>
+		<input type="checkbox" name="java">
+		<label for="java">Java</label>
+		<input type="checkbox" name="C" >
+		<label for="C">C</label>
+		<input type="checkbox" name="Python">
+		<label for="Python">Python</label>
+		<br>
+		Select Your PassedOut Year :
+		<select >
+			<option value="2022">2022</option>
+			<option value="2021">2021</option>
+			<option value="2020">  2020</option>
+			<option value="2019" selected>2019</option>
+		</select><br>
+		<input type="submit" value="Submit">
+		<input type="button" value="Try it">
+	</form>
+</body>
+</html>
